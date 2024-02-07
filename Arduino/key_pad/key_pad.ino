@@ -203,6 +203,7 @@ const AliasKey aliasKeys[] = {
   { 0x0800 | 0x0200, 3, { KEY_LEFT_SHIFT, KEY_LEFT_CTRL, KEY_PAUSE } }, // DCS: Active Pause
   { 0x0004 | 0x0002, 2, { KEY_LEFT_CTRL, 'z' } },   // DCS: Accelerate time speed
   { 0x0002 | 0x0001, 2, { KEY_LEFT_SHIFT, 'z' } },  // DCS: Reset time acceleration
+  { 0x0020 | 0x0010, 2, { KEY_LEFT_SHIFT, KEY_F10 } },  // DCS: All labels
 };
 
 // 同時押しに割り当てられたエイリアスを検索
